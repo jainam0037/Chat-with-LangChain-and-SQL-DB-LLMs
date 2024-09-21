@@ -64,9 +64,6 @@ All necessary dependencies are listed in `requirements.txt`. These include libra
 - **User Experience**: The ease of interacting with the chatbot and switching between databases.
 - **System Efficiency**: Memory usage and efficiency in handling both local and remote database queries.
 
-## Photos
-(Screenshots of the Streamlit app showing interaction with the SQLite database and MySQL database should be included here.)
-
 ## Conclusion
 This project demonstrates how to effectively integrate Langchain and LLMs with SQL databases, allowing users to interact with structured data using natural language. It simplifies querying databases by leveraging the power of large language models and makes database management more accessible to non-technical users. Future improvements could include adding support for additional databases and expanding the chatbot's natural language understanding capabilities.
 
