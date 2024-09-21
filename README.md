@@ -24,6 +24,7 @@ The Streamlit app acts as the front-end interface where users can interact with 
 2. It inserts sample student records, including their name, class, section, and marks.
 3. The records are displayed after insertion to verify successful operation.
 ![SQLITE ](https://github.com/user-attachments/assets/2114a5f0-b6b2-4a2b-a17e-6a09a2a8845c)
+![SQL Database](https://github.com/user-attachments/assets/67c737b5-936b-43f2-8370-c596d2e2b91e)
 
 
 ### Building the Streamlit App:
@@ -31,10 +32,17 @@ The Streamlit app acts as the front-end interface where users can interact with 
 2. The app integrates with Langchain's SQL Database Toolkit to allow SQL queries through natural language.
 3. It accepts the GROQ API Key required for the LLM model, ensuring secure access to the AI's capabilities.
 4. Queries are processed, and the chatbot provides responses from the connected database.
+![Streamlit app run demo](https://github.com/user-attachments/assets/f237b285-525f-43fa-ac82-335e11ce890b)
+![streamlit app run in command prompt](https://github.com/user-attachments/assets/a77aecff-f1fb-4005-947e-0931b474af8e)
+
 
 ### Langchain and LLM Integration:
 - The project uses Langchain to interface with the SQL database, powered by the ChatGroq LLM model.
 - The chatbot is designed to handle natural language queries, converting them into SQL commands for execution on the database.
+
+![Streamlit app run demo 2](https://github.com/user-attachments/assets/d982bd71-28bb-47e7-bfcb-23506e1f0bef)
+![Streamlit app run demo  3 with MYSQL](https://github.com/user-attachments/assets/407e7a93-ba8c-4551-9239-5da49bb17cfb)
+
 
 ### Configure Database:
 - Based on the user's selection, the app configures either the SQLite database or a MySQL database using connection details entered in the sidebar.
@@ -42,6 +50,9 @@ The Streamlit app acts as the front-end interface where users can interact with 
 
 ### Requirements:
 All necessary dependencies are listed in `requirements.txt`. These include libraries for Langchain, SQL database connections, and Streamlit.
+
+![Requirements](https://github.com/user-attachments/assets/fd013882-f35c-4bcd-89de-7a1f7a158a8e)
+
 
 ### Deploying the App:
 1. The Streamlit app can be run locally after installing the required dependencies.
@@ -67,3 +78,4 @@ This project demonstrates how to effectively integrate Langchain and LLMs with S
 2. Install dependencies by running:
    ```bash
    pip install -r requirements.txt
+   
