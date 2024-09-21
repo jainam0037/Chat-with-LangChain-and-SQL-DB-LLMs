@@ -78,4 +78,9 @@ This project demonstrates how to effectively integrate Langchain and LLMs with S
 2. Install dependencies by running:
    ```bash
    pip install -r requirements.txt
-   
+
+3. Set up your GROQ_API_KEY in a .env file.
+4. Run the Streamlit app using:
+    ```bash
+    streamlit run app.py
+5. Choose between the local SQLite database or input MySQL connection details to start querying!
