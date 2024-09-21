@@ -23,6 +23,8 @@ The Streamlit app acts as the front-end interface where users can interact with 
 1. The `sqlite.py` file creates an SQLite database (`STUDENT.db`) with a table named `STUDENT`.
 2. It inserts sample student records, including their name, class, section, and marks.
 3. The records are displayed after insertion to verify successful operation.
+![SQLITE ](https://github.com/user-attachments/assets/2114a5f0-b6b2-4a2b-a17e-6a09a2a8845c)
+
 
 ### Building the Streamlit App:
 1. The `app.py` file builds the user interface using Streamlit, where users can choose between using a local SQLite database or connecting to their MySQL database.
