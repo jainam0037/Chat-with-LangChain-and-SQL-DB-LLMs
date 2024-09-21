@@ -10,6 +10,7 @@ This project utilizes the Langchain library to create a chatbot that connects to
 - **MySQL**: Users can also connect to their own MySQL database by providing connection details.
 
 The Streamlit app acts as the front-end interface where users can interact with the chatbot. The chatbot supports both querying the local SQLite database and connecting to a MySQL database, with flexible options for the database selection.
+![image](https://github.com/user-attachments/assets/71913376-f772-437e-8875-e645112ace63)
 
 ## Features
 - **Database Interaction via Natural Language**: Users can chat with the SQL databases and ask questions like "Show me all students in Data Science class" or "What is the highest score in DEVOPS?"
