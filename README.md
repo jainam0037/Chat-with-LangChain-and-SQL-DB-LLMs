@@ -48,7 +48,7 @@ Snapshot of the code running in Vscode
 Example 2: Display of all records with marks less than 55
 ![Streamlit app run demo 2](https://github.com/user-attachments/assets/d982bd71-28bb-47e7-bfcb-23506e1f0bef)
 
-Snapshot of Working model using MySql: 
+Snapshot of Working model using MySql: after entering MYSQL host, Mysql host, password, Database and GROQAPI Key
 ![Streamlit app run demo  3 with MYSQL](https://github.com/user-attachments/assets/407e7a93-ba8c-4551-9239-5da49bb17cfb)
 
 
